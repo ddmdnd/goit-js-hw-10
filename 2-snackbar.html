@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="./css/snakebar.css" /> -->
+    <title>Snackbar</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-4dc8fa59.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-9dd4053f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/bi_x-octagon-6ca47896.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-a6099a32.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-e5212ee8.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/2-snackbar-61548c72.css">
+  </head>
+  <body>
+    <section>
+      <a href="./index.html">Go to home</a>
+      <h1>Welcome to "The snackbar"</h1>
+    </section>
+
+    <form class="form">
+      <label class = "labelMs">
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+    
+      <fieldset class = "containerRadio">
+        <legend>State</legend>
+        <div class = "boxRadio">
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </div>
+      </fieldset>
+    
+      <button class = "button" type="submit" >Create notification</button>
+    </form>
+    
+    
+  </body>
+</html>
